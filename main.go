@@ -1,7 +1,9 @@
 package main
 
-import "github.com/charmbracelet/log"
+import (
+	"github.com/InvalidJokerDE/PterodactylSecurity/cmd"
+)
 
 func main() {
-	log.Info("Starting Security System...")
+	cmd.Execute()
 }
